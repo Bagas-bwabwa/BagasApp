@@ -1,0 +1,59 @@
+/* Styling untuk keseluruhan halaman - Vibes Night City */
+body {
+    font-family: 'Courier New', Courier, monospace; /* Font monospaced untuk kesan terminal */
+    background-color: #050505; /* Hitam pekat */
+    color: #00ff41; /* Hijau Matrix / Terminal */
+    margin: 0;
+    padding: 20px;
+    background-image: radial-gradient(circle, #1a1a2e 0%, #050505 100%);
+}
+
+/* Container utama - Kesan metalik dan neon */
+.card {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #0d0d0d;
+    padding: 20px;
+    border: 2px solid #ff0055; /* Border neon pink */
+    border-radius: 0px; /* Cyberpunk biasanya lebih kaku/persegi */
+    box-shadow: 0 0 15px #ff0055, inset 0 0 10px #ff0055; /* Glow effect luar dalam */
+    position: relative;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 95% 100%, 0% 100%); /* Potongan sudut futuristik */
+}
+
+/* Header utama - Glitchy Blue */
+h1 {
+    color: #00fbff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px #ff0055; /* Efek shadow warna kontras */
+}
+
+/* Paragraf */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #e0e0e0;
+}
+
+/* Garis pemisah - Neon Pulse */
+hr {
+    border: none;
+    height: 1px;
+    background: #00fbff;
+    box-shadow: 0 0 10px #00fbff;
+    margin: 20px 0;
+}
+
+/* Greeting */
+small {
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: right;
+    color: #ffff00; /* Kuning Cyberpunk 2077 */
+    background: #000;
+    padding: 5px;
+}
