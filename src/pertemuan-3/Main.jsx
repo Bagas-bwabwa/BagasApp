@@ -10,5 +10,5 @@ createRoot(document.getElementById("root")).render(
     <Container>
       <HelloWorld />
     </Container>
-  </div>,
+  </div>
 );
