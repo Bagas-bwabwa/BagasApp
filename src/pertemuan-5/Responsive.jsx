@@ -54,6 +54,8 @@ function ResponsiveLayout(){
                 <div class="bg-blue-500 p-4">Box 2</div>
                 <div class="bg-blue-500 p-4">Box 3</div>
                 <div class="bg-blue-500 p-4">Box 4</div>
+                <div class="bg-blue-500 p-4">Box 5</div>
+                <div class="bg-blue-500 p-4">Box 6</div>
             </div>
         </div>
     )
